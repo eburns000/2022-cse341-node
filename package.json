@@ -1,0 +1,20 @@
+{
+  "name": "2022-cse341-node",
+  "version": "1.0.0",
+  "description": "Run npm install and npm start from the backend folder in the terminal Test the endpoints in the routes.rest file with the Rest Client or another similar tool.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eburns000/2022-cse341-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eburns000/2022-cse341-node/issues"
+  },
+  "homepage": "https://github.com/eburns000/2022-cse341-node#readme"
+}
