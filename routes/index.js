@@ -1,7 +1,7 @@
-const routes = require('express').Router();
+const router = require('express').Router();
+const {getPersonName} = require('../controllers/indexController'); // Note to self: example of destructuring
+//const getPersonName = require('../controllers/indexController').getPersonName; // Note to self: written in more verbose way
 
-routes.get('/', (req, res) => {
-  res.send('Hello, Kendra Burns!');
-});
+router.get('/', getPersonName);
 
-module.exports = routes;
+module.exports = router;
