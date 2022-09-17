@@ -1,5 +1,5 @@
 const getPersonName = (req, res) => {
-  res.send('Hello, Kendra Burns!');
+  res.send('Hello, Kendra Burns, How are you!');
 };
 
 module.exports = { getPersonName } // example of destructuring
