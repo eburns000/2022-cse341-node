@@ -1,6 +1,7 @@
 const dotenv = require('dotenv');
 dotenv.config();
 const MongoClient = require('mongodb').MongoClient;
+console.log(`Success URI is: ${process.env.MONGODB_URI}`);
 
 let _db;
 
@@ -11,12 +12,10 @@ const initDb = (callback) => {
   }
   MongoClient.connect(process.env.MONGODB_URI)
     .then((client) => {
-      console.log(`Success URI is: ${MONGODB_URI}`);
       _db = client;
       callback(null, _db);
     })
     .catch((err) => {
-      console.log(`Failure URI is: ${MONGODB_URI}`);
       callback(err);
     });
 };
