@@ -11,10 +11,12 @@ const initDb = (callback) => {
   }
   MongoClient.connect(process.env.MONGODB_URI)
     .then((client) => {
+      console.log(`Success URI is: ${MONGODB_URI}`);
       _db = client;
       callback(null, _db);
     })
     .catch((err) => {
+      console.log(`Failure URI is: ${MONGODB_URI}`);
       callback(err);
     });
 };
