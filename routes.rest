@@ -1,0 +1,13 @@
+// LOCALHOST
+###
+GET http://localhost:8080/contacts
+
+// PRODUCTION Deploy
+###
+GET https://cse341-w01-pa.onrender.com/contacts
+###
+GET https://cse341-w01-pa.onrender.com/contacts/632a54bc21b8e1980e08af73
+###
+GET https://cse341-w01-pa.onrender.com/contacts/632a59d096db18cff1732429
+###
+GET https://cse341-w01-pa.onrender.com/contacts/632a59d096db18cff173242a

@@ -1,5 +1,5 @@
 # CSE 341 Fall 2022
-Current Assignment: Week 01, Personal Assignment
+Current Assignment: Week 02, Personal Assignment
 
 ## Author
 Eric Burns
@@ -8,8 +8,8 @@ Eric Burns
 https://cse341-w01-pa.onrender.com/
 
 ## Video
-https://youtu.be/NlfN--v0_V4
+Week 01 Video: https://youtu.be/NlfN--v0_V4
 
 ## Test Credentials
-Not applicable for the week 01 assignment
+Not applicable for the week 02 assignment
 
