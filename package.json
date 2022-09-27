@@ -26,6 +26,8 @@
     "mongodb": "^4.10.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "eslint": "^8.24.0",
+    "nodemon": "^2.0.19",
+    "uri-js": "^4.4.1"
   }
 }
