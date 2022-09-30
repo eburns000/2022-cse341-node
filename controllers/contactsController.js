@@ -22,4 +22,8 @@ const getSingle = async (req, res, next) => {
   });
 };
 
-module.exports = { getAll, getSingle };
+const postSingle = async (req, res) => {
+  const result = await mongodb.getDb().db("contact-db").collection("contacts").insertOne(newContact);
+};
+
+module.exports = { getAll, getSingle, postSingle };
