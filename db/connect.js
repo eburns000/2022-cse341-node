@@ -1,7 +1,7 @@
 const dotenv = require('dotenv');
 dotenv.config();
 const MongoClient = require('mongodb').MongoClient;
-console.log(`Success URI is: ${process.env.MONGODB_URI}`);
+console.log(`Connect.js step 1`);
 
 let _db;
 

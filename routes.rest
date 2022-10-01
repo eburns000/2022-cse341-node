@@ -7,7 +7,26 @@ GET http://localhost:8080/contacts/632a54bc21b8e1980e08af73
 GET http://localhost:8080/contacts/632a59d096db18cff1732429
 ###
 GET http://localhost:8080/contacts/632a59d096db18cff173242a
+###
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
 
+{
+  "firstName": "Susanna",
+  "lastName": "Burns",
+  "email": "susanna@gmail.com",
+  "favoriteColor": "pink",
+  "birthday": "2018-08-01T07:00:00.000Z"
+}
+###
+DELETE http://localhost:8080/contacts/63385cd404caaa13a3a4075e
+###
+PUT http://localhost:8080/contacts/63384c2ef7c3760821146ac0
+content-type: application/json
+
+{
+  "favoriteColor": "blue"
+}
 
 // PRODUCTION Deploy
 ###
