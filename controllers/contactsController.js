@@ -28,14 +28,6 @@ const getSingle = async (req, res, next) => {
   });
 };
 
-// const newContact = {
-//   firstName: "Sean",
-//   lastName: "Burns",
-//   email: "sean@gmail.com",
-//   favoriteColor: "green",
-//   birthday: new Date(1982, 11, 21, 0, 0, 0, 0) // 12/21/1982
-// }
-
 const postSingle = async (req, res) => {
   // for testing
   console.log("postSingle called");
@@ -89,7 +81,7 @@ const putSingle = async (req, res) => {
     .collection("contacts")
     .updateOne({ _id: userId }, { $set: req.body});
 
-  res.status(204);
+  res.status(204).send();
 
   // optionally, send a message of success to the console
   console.log(`Modified (PUT) contact with id: ${userId}`);

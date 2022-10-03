@@ -19,13 +19,13 @@ content-type: application/json
   "birthday": "2018-08-01T07:00:00.000Z"
 }
 ###
-DELETE http://localhost:8080/contacts/63385cd404caaa13a3a4075e
+DELETE http://localhost:8080/contacts/6338606939faf708874b0cc7
 ###
 PUT http://localhost:8080/contacts/63384c2ef7c3760821146ac0
 content-type: application/json
 
 {
-  "favoriteColor": "blue"
+  "favoriteColor": "brown"
 }
 
 // PRODUCTION Deploy
