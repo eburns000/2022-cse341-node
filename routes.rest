@@ -49,11 +49,11 @@ content-type: application/json
   "birthday": "2018-08-01T07:00:00.000Z"
 }
 ###
-DELETE http://cse341-w01-pa.onrender.com/contacts/6338606939faf708874b0cc7
+DELETE http://cse341-w01-pa.onrender.com/contacts/63384e378497a42e04114337
 ###
 PUT http://cse341-w01-pa.onrender.com/contacts/63384c2ef7c3760821146ac0
 content-type: application/json
 
 {
-  "favoriteColor": "brown"
+  "favoriteColor": "Blue"
 }
