@@ -1,6 +1,6 @@
 const cors = require("cors");
 
-var corsOptions = {
+let corsOptions = {
   option: "*",
 };
 
