@@ -5,8 +5,8 @@ const doc = {
     title: 'Conacts API',
     description: 'This Contacts API provides access to the Contacts database in MongoDB',
   },
-  host: 'localhost:8080',
-  schemes: ['http'],
+  host: '',
+  schemes: ['https','http'],
 };
 
 const outputFile = './swagger.json';

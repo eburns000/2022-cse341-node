@@ -5,9 +5,10 @@
     "description": "This Contacts API provides access to the Contacts database in MongoDB",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "",
   "basePath": "/",
   "schemes": [
+    "https",
     "http"
   ],
   "paths": {
